@@ -1,4 +1,4 @@
-# liquid-glass-shader
+# liquid shader
 
 This repository is a demo project showcasing liquid-like and glass-like visual effects built with Apple's Metal shader language (MSL).
 
