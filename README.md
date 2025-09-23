@@ -4,7 +4,7 @@ This repository is a demo project showcasing liquid-like and glass-like visual e
 
 # Demo
 
-![Liquid Glass Demo](./docs/demo.mov)
+![Liquid Glass Demo](./docs/demo.mp4)
 
 # How it Works
 
