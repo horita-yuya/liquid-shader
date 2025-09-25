@@ -34,7 +34,8 @@ struct RippleParams {
     var fresnelIor: Float
 }
 
-final class LiquidRippleRenderer: NSObject, MTKViewDelegate, @unchecked Sendable {
+@MainActor
+final class LiquidRippleRenderer: NSObject, MTKViewDelegate {
     private let device: MTLDevice
     private let queue: MTLCommandQueue
     private let pipeline: MTLRenderPipelineState
@@ -73,7 +74,7 @@ final class LiquidRippleRenderer: NSObject, MTKViewDelegate, @unchecked Sendable
         specularIntensity  : 0.55,
         specularShininess  : 80,
         envRotation        : 0.0,
-        fresnelIor: 1.9,
+        fresnelIor: 1.9
     )
     
     private let MAX_RIPPLES = 16

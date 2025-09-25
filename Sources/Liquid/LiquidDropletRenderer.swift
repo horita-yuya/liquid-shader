@@ -16,8 +16,8 @@ struct DropletParams {
     var time: Float
 }
 
-
-final class LiquidDropletRenderer: NSObject, MTKViewDelegate, @unchecked Sendable {
+@MainActor
+final class LiquidDropletRenderer: NSObject, MTKViewDelegate {
     private let device: MTLDevice
     private let queue: MTLCommandQueue
     private let pipeline: MTLRenderPipelineState
