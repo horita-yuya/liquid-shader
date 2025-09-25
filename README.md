@@ -25,7 +25,7 @@ struct ContentView: View {
 }
 ```
 
-# Demo
+# Demo (takes long time for preview)
 
 ![Liquid Glass Demo](./docs/demo.gif)
 
