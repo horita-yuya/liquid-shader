@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Liquid",
+    name: "liquid-shader",
     platforms: [
         .iOS(.v18)
     ],
